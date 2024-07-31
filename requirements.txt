@@ -1,0 +1,5 @@
+torch==2.0.1
+gymnasium==0.29.1
+matplotlib==3.5.1
+numpy==1.22.0
+pygame==2.5.2
