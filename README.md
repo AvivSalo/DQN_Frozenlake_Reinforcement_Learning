@@ -22,7 +22,7 @@ This repository contains an implementation of a Deep Q-Network (DQN) using a Rei
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/AvivSalo/QN_Frozenlake_Reinforcement_Learning.git
+    git clone https://github.com/AvivSalo/DQN_Frozenlake_Reinforcement_Learning.git
     cd DQN_Frozenlake_Reinforcement_Learning
     ```
 2. Install the required packages:
