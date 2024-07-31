@@ -1,4 +1,4 @@
-# ❄️ DQN Frozenlake Reinforcement Learning ❄️
+# 🧊❄️ DQN Frozenlake Reinforcement Learning ❄️🧊
 This repository contains an implementation of a Deep Q-Network (DQN) using a Reinforcement Learning (RL) agent in the Frozen Lake environment from GYM. The aim is to train the RL agent to navigate the frozen lake and reach the goal without falling into holes.
 
 ## Features
@@ -50,3 +50,8 @@ DQN/
     ├── dqn_agent.py
     ├── dqn_network.py
     └── replay_memory.py
+
+## Acknowledgments
+
+- Vivianhylee, thank you for providing the Openai DQN structure toolkit.
+  https://github.com/vivianhylee/general-OpenAI-gym-agent/tree/master
