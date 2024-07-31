@@ -182,7 +182,7 @@ class RLModel:
 
 if __name__ == '__main__':
     '''
-    # Argument parser --> canceled and changed to yaml file 
+    # Argument parser --> canceled  
     
     parser = argparse.ArgumentParser()
     parser.add_argument('--train_mode', type=str, required=True, help='Train or Evaluate')
