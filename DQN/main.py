@@ -198,15 +198,15 @@ if __name__ == '__main__':
     seed_everything(42)
     train_mode = False  # True
     render = not train_mode
-    map_size = 4  # 4 or 8
+    map_size = 8  # 4 or 8
     RL_hyperparams = {
         "train_mode": train_mode,
         #"RL_load_path": f'./DQN/{map_size}x{map_size}_map/final_weights' + '_' + '3000' + '.pth',
 
         # map_size == 8
-        #"RL_load_path": f'./DQN/{map_size}x{map_size}_map/final_weights' + '2024-07-06 15:38:48.494434_' + '3000' + '.pth',
+        "RL_load_path": f'./DQN/{map_size}x{map_size}_map/final_weights' + '2024-07-06 15:38:48.494434_' + '3000' + '.pth',
         # map_size == 4
-        "RL_load_path": f'./DQN/{map_size}x{map_size}_map/final_weights' + '2024-07-06 16:56:40.697539_' + '3000' + '.pth',
+        # "RL_load_path": f'./DQN/{map_size}x{map_size}_map/final_weights' + '2024-07-06 16:56:40.697539_' + '3000' + '.pth',
 
         "save_path": f'./DQN/{map_size}x{map_size}_map/final_weights{datetime.datetime.now()}',
         "save_interval": 500,
