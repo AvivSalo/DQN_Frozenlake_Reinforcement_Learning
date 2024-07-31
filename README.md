@@ -11,7 +11,7 @@ This repository contains an implementation of a Deep Q-Network (DQN) using a Rei
 
 ## Requirements
 
-- Python 3.x
+- Python 3.8 or later
 - OpenAI GYM - gymnasium
 - PyTorch
 - NumPy
